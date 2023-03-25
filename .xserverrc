@@ -1,0 +1,2 @@
+#! /bin/sh
+exec /usr/bin/Xephyr -nolisten tcp -screen 1024x768 ${1+"$@"}
